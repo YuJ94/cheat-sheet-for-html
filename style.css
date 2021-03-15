@@ -15,6 +15,8 @@ body {
     font-family: 'Oswald', sans-serif;
 }
 
+/* FONTS */
+
 h1 {
     color: #ffffff;
     font-size: 64px;
@@ -30,6 +32,16 @@ h3 {
     text-align: center;
 	padding:  24px;
     letter-spacing: 1px;
+}
+
+/* FONTS - MOBILE */
+
+@media only screen and (max-width: 620px) {
+
+    h1 {
+        font-size: 48px;
+    }
+
 }
 
 /* BACK TO TOP ARROW SECTION */
@@ -51,6 +63,7 @@ h3 {
 
 .arrow_button a i {
     color: #62959c;
+    font-size: 4rem;
     padding: 0 12px;
 }
 
@@ -60,6 +73,56 @@ h3 {
 
 .arrow_button a i:hover {
     color: #ffffff;
+}
+
+/* BACK TO TOP ARROW SECTION - MOBILE */
+
+@media only screen and (max-width: 625px) {
+
+    .arrow_button {
+        bottom: 21px;
+        right: 21px;
+    }
+
+    .arrow_button a {
+        height: 48px;
+        width: 48px;
+        border-radius: 12px;
+    }
+
+    .arrow_button a i {
+        font-size: 3rem;
+        padding: 0 9px;
+    }
+
+}
+
+@media only screen and (max-width: 500px) {
+
+    .arrow_button {
+        bottom: 18px;
+        right: 18px;
+    }
+
+    .arrow_button a {
+        height: 32px;
+        width: 32px;
+        border-radius: 8px;
+    }
+
+    .arrow_button a i {
+        font-size: 2rem;
+        padding: 0 6px;
+    }
+
+}
+
+@media only screen and (max-width: 400px) {
+
+    .arrow_button {
+        display: none;
+    }
+
 }
 
 /* HEADER SECTION */
@@ -88,6 +151,7 @@ header a:hover {
 table {
     border: 2px solid #ffffff;
     margin: 0 auto;
+    width: 100%;
     max-width: 60%;
 }
   
@@ -108,6 +172,17 @@ tbody {
 
 td {
     padding: 16px;
+    word-wrap: break-word;
+}
+
+/* TABLE SECTION - MOBILE */
+
+@media only screen and (max-width: 625px) {
+
+    tr > *:nth-child(2) {
+        display: none;
+    }
+
 }
 
 /* FOOTER SECTION */
