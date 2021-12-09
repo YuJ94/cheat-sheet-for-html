@@ -1,13 +1,13 @@
 # Cheat Sheet for HTML
-A reference sheet for HTML tags, attributes and their uses. Developed the website using table elements in HTML.
+A reference sheet for HTML tags and attributes. Developed using HTML table elements.
 
 ## Screenshot
 ![preview of landing page](./resources/images/cheat-sheet-for-html.jpg)
 
 ## Visit
-Click [here](https://yuj94.github.io/cheat-sheet-for-html/) to visit the website.
+To view this website live, please visit [here](https://yuj94.github.io/cheat-sheet-for-html/).
 
-## Technologies
+## Technologies Used
 Project was built with:
 - HTML
 - CSS
